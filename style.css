@@ -1,0 +1,48 @@
+
+
+body{
+    background-color: #04142d;
+}
+
+header{
+    background-color: #04142d;
+    padding: 17px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.carousel{
+    position:relative;
+    z-index: 1;
+}
+
+.carousel-item img{
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.container h1{
+    color: #fff;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card img{
+    height: 250px;
+}
+
+form{
+    color: #fff;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .row {
+      grid-template-columns: repeat(2, 1fr); /* 2 colunas de igual largura */
+    }}
